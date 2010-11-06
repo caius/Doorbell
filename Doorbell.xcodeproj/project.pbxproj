@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0977716A12858FDC008B3D1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0977716912858FDC008B3D1E /* Cocoa.framework */; };
+		0977716F12858FDC008B3D1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0977716D12858FDC008B3D1E /* InfoPlist.strings */; };
+		0977717112858FDC008B3D1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0977717012858FDC008B3D1E /* main.m */; };
+		0977717412858FDC008B3D1E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0977717212858FDC008B3D1E /* MainMenu.xib */; };
+		0977717712858FDC008B3D1E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0977717512858FDC008B3D1E /* Credits.rtf */; };
+		0977717A12858FDC008B3D1E /* DoorbellAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0977717912858FDC008B3D1E /* DoorbellAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0977716612858FDC008B3D1E /* Doorbell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doorbell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0977716912858FDC008B3D1E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0977716B12858FDC008B3D1E /* Doorbell-Info.plist */ = {isa = PBXFileReference; path = "Doorbell-Info.plist"; sourceTree = "<group>"; };
+		0977716C12858FDC008B3D1E /* Doorbell_Prefix.pch */ = {isa = PBXFileReference; path = Doorbell_Prefix.pch; sourceTree = "<group>"; };
+		0977716E12858FDC008B3D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0977717012858FDC008B3D1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0977717312858FDC008B3D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0977717612858FDC008B3D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0977717812858FDC008B3D1E /* DoorbellAppDelegate.h */ = {isa = PBXFileReference; path = DoorbellAppDelegate.h; sourceTree = "<group>"; };
+		0977717912858FDC008B3D1E /* DoorbellAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoorbellAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0977716312858FDC008B3D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0977716A12858FDC008B3D1E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0977715712858FDB008B3D1E = {
+			isa = PBXGroup;
+			children = (
+				0977715E12858FDC008B3D1E /* Classes */,
+				0977715F12858FDC008B3D1E /* Other Sources */,
+				0977716012858FDC008B3D1E /* Resources */,
+				0977716112858FDC008B3D1E /* Frameworks */,
+				0977716712858FDC008B3D1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0977715E12858FDC008B3D1E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0977717812858FDC008B3D1E /* DoorbellAppDelegate.h */,
+				0977717912858FDC008B3D1E /* DoorbellAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0977715F12858FDC008B3D1E /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0977716C12858FDC008B3D1E /* Doorbell_Prefix.pch */,
+				0977717012858FDC008B3D1E /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		0977716012858FDC008B3D1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0977716B12858FDC008B3D1E /* Doorbell-Info.plist */,
+				0977716D12858FDC008B3D1E /* InfoPlist.strings */,
+				0977717212858FDC008B3D1E /* MainMenu.xib */,
+				0977717512858FDC008B3D1E /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0977716112858FDC008B3D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0977716912858FDC008B3D1E /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0977716712858FDC008B3D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0977716612858FDC008B3D1E /* Doorbell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0977716512858FDC008B3D1E /* Doorbell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0977717D12858FDC008B3D1E /* Build configuration list for PBXNativeTarget "Doorbell" */;
+			buildPhases = (
+				0977716212858FDC008B3D1E /* Sources */,
+				0977716312858FDC008B3D1E /* Frameworks */,
+				0977716412858FDC008B3D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doorbell;
+			productName = Doorbell;
+			productReference = 0977716612858FDC008B3D1E /* Doorbell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0977715912858FDB008B3D1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Swedishcampground Software";
+			};
+			buildConfigurationList = 0977715C12858FDB008B3D1E /* Build configuration list for PBXProject "Doorbell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0977715712858FDB008B3D1E;
+			productRefGroup = 0977716712858FDC008B3D1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0977716512858FDC008B3D1E /* Doorbell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0977716412858FDC008B3D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0977716F12858FDC008B3D1E /* InfoPlist.strings in Resources */,
+				0977717412858FDC008B3D1E /* MainMenu.xib in Resources */,
+				0977717712858FDC008B3D1E /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0977716212858FDC008B3D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0977717112858FDC008B3D1E /* main.m in Sources */,
+				0977717A12858FDC008B3D1E /* DoorbellAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0977716D12858FDC008B3D1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0977716E12858FDC008B3D1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0977717212858FDC008B3D1E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0977717312858FDC008B3D1E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0977717512858FDC008B3D1E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0977717612858FDC008B3D1E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0977717B12858FDC008B3D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0977717C12858FDC008B3D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0977717E12858FDC008B3D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Doorbell_Prefix.pch;
+				INFOPLIST_FILE = "Doorbell-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0977717F12858FDC008B3D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Doorbell_Prefix.pch;
+				INFOPLIST_FILE = "Doorbell-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0977715C12858FDB008B3D1E /* Build configuration list for PBXProject "Doorbell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0977717B12858FDC008B3D1E /* Debug */,
+				0977717C12858FDC008B3D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0977717D12858FDC008B3D1E /* Build configuration list for PBXNativeTarget "Doorbell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0977717E12858FDC008B3D1E /* Debug */,
+				0977717F12858FDC008B3D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0977715912858FDB008B3D1E /* Project object */;
+}
