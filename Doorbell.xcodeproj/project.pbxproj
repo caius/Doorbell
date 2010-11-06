@@ -7,25 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092B70331285E13700C2566A /* HIDRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B70311285E13700C2566A /* HIDRemote.m */; };
+		092B70361285E1F200C2566A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092B70351285E1F200C2566A /* IOKit.framework */; };
 		0977716A12858FDC008B3D1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0977716912858FDC008B3D1E /* Cocoa.framework */; };
 		0977716F12858FDC008B3D1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0977716D12858FDC008B3D1E /* InfoPlist.strings */; };
 		0977717112858FDC008B3D1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0977717012858FDC008B3D1E /* main.m */; };
 		0977717412858FDC008B3D1E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0977717212858FDC008B3D1E /* MainMenu.xib */; };
 		0977717712858FDC008B3D1E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0977717512858FDC008B3D1E /* Credits.rtf */; };
 		0977717A12858FDC008B3D1E /* DoorbellAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0977717912858FDC008B3D1E /* DoorbellAppDelegate.m */; };
+		097965581285A7D30082DD1D /* LRResty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097965571285A7D30082DD1D /* LRResty.framework */; };
+		0979655B1285A9840082DD1D /* Prowl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0979655A1285A9840082DD1D /* Prowl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		092B70301285E13700C2566A /* HIDRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDRemote.h; sourceTree = "<group>"; };
+		092B70311285E13700C2566A /* HIDRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemote.m; sourceTree = "<group>"; };
+		092B70351285E1F200C2566A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Xcode4/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		092B70371285E26400C2566A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		0977716612858FDC008B3D1E /* Doorbell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doorbell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0977716912858FDC008B3D1E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		0977716B12858FDC008B3D1E /* Doorbell-Info.plist */ = {isa = PBXFileReference; path = "Doorbell-Info.plist"; sourceTree = "<group>"; };
-		0977716C12858FDC008B3D1E /* Doorbell_Prefix.pch */ = {isa = PBXFileReference; path = Doorbell_Prefix.pch; sourceTree = "<group>"; };
+		0977716B12858FDC008B3D1E /* Doorbell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Doorbell-Info.plist"; sourceTree = "<group>"; };
+		0977716C12858FDC008B3D1E /* Doorbell_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doorbell_Prefix.pch; sourceTree = "<group>"; };
 		0977716E12858FDC008B3D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0977717012858FDC008B3D1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0977717312858FDC008B3D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0977717612858FDC008B3D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		0977717812858FDC008B3D1E /* DoorbellAppDelegate.h */ = {isa = PBXFileReference; path = DoorbellAppDelegate.h; sourceTree = "<group>"; };
+		0977717812858FDC008B3D1E /* DoorbellAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoorbellAppDelegate.h; sourceTree = "<group>"; };
 		0977717912858FDC008B3D1E /* DoorbellAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoorbellAppDelegate.m; sourceTree = "<group>"; };
+		097965571285A7D30082DD1D /* LRResty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LRResty.framework; path = /caius/sources/LRResty/build/Release/LRResty.framework; sourceTree = "<absolute>"; };
+		097965591285A9840082DD1D /* Prowl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prowl.h; sourceTree = "<group>"; };
+		0979655A1285A9840082DD1D /* Prowl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prowl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092B70361285E1F200C2566A /* IOKit.framework in Frameworks */,
+				097965581285A7D30082DD1D /* LRResty.framework in Frameworks */,
 				0977716A12858FDC008B3D1E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,9 +53,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		092B702F1285E13700C2566A /* HIDRemote */ = {
+			isa = PBXGroup;
+			children = (
+				092B70301285E13700C2566A /* HIDRemote.h */,
+				092B70311285E13700C2566A /* HIDRemote.m */,
+			);
+			name = HIDRemote;
+			path = Classes/HIDRemote;
+			sourceTree = "<group>";
+		};
 		0977715712858FDB008B3D1E = {
 			isa = PBXGroup;
 			children = (
+				092B70371285E26400C2566A /* Carbon.framework */,
 				0977715E12858FDC008B3D1E /* Classes */,
 				0977715F12858FDC008B3D1E /* Other Sources */,
 				0977716012858FDC008B3D1E /* Resources */,
@@ -54,6 +78,8 @@
 		0977715E12858FDC008B3D1E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				097965591285A9840082DD1D /* Prowl.h */,
+				0979655A1285A9840082DD1D /* Prowl.m */,
 				0977717812858FDC008B3D1E /* DoorbellAppDelegate.h */,
 				0977717912858FDC008B3D1E /* DoorbellAppDelegate.m */,
 			);
@@ -63,6 +89,7 @@
 		0977715F12858FDC008B3D1E /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				092B702F1285E13700C2566A /* HIDRemote */,
 				0977716C12858FDC008B3D1E /* Doorbell_Prefix.pch */,
 				0977717012858FDC008B3D1E /* main.m */,
 			);
@@ -83,6 +110,8 @@
 		0977716112858FDC008B3D1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				092B70351285E1F200C2566A /* IOKit.framework */,
+				097965571285A7D30082DD1D /* LRResty.framework */,
 				0977716912858FDC008B3D1E /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -161,6 +190,8 @@
 			files = (
 				0977717112858FDC008B3D1E /* main.m in Sources */,
 				0977717A12858FDC008B3D1E /* DoorbellAppDelegate.m in Sources */,
+				0979655B1285A9840082DD1D /* Prowl.m in Sources */,
+				092B70331285E13700C2566A /* HIDRemote.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +237,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PREBINDING = NO;
 				SDKROOT = macosx;
 			};
@@ -220,6 +255,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PREBINDING = NO;
 				SDKROOT = macosx;
 			};
@@ -230,6 +269,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Brutus/Users/caius/Library/Frameworks\"",
+					/caius/sources/LRResty/build/Release,
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
@@ -248,6 +292,11 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Brutus/Users/caius/Library/Frameworks\"",
+					/caius/sources/LRResty/build/Release,
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
