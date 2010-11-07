@@ -9,16 +9,14 @@
 #import <Cocoa/Cocoa.h>
 #import <LRResty/LRResty.h>
 
-@class Prowl;
+@class DingDongController;
 
 @interface DoorbellAppDelegate : NSObject <NSApplicationDelegate> {
   NSWindow *window;
-  Prowl *_prowl;
+  DingDongController *_dingDongController;
 }
 
 @property (retain) IBOutlet NSWindow *window;
-@property (retain, readonly) Prowl *prowl;
-
-- (void) dingDong;
+@property (retain) IBOutlet DingDongController *dingDongController;
 
 @end

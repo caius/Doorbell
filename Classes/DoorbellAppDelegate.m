@@ -7,25 +7,18 @@
 //
 
 #import "DoorbellAppDelegate.h"
-#import "Prowl.h"
+#import "DingDongController.h"
 #import "HIDRemote.h"
-
-@interface DoorbellAppDelegate ()
-@property (retain, readwrite) Prowl *prowl;
-@end
 
 @implementation DoorbellAppDelegate
 
 @synthesize window;
-@synthesize prowl = _prowl;
+@synthesize dingDongController = _dingDongController;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
   // Insert code here to initialize your application
-  NSLog(@"Creating Prowl");
-    
-  self.prowl = [Prowl prowlWithAPIKey:@"ce2da058a7fb4043f065c840a6f5b4f6074a8064"];
-  NSLog(@"self.prowl: %@", self.prowl);
   
+  NSLog(@"Setting up remote");
   [[HIDRemote sharedHIDRemote] setDelegate:self];
 	
   if ([[HIDRemote sharedHIDRemote] startRemoteControl:kHIDRemoteModeExclusiveAuto]) {
@@ -43,19 +36,14 @@
   // Check if it's the centre button clicked & that it's the release event
   if (buttonCode == 5 && isPressed) {
     NSLog(@"DING DONG");
-    [self dingDong];
+    [self.dingDongController dingDong];
   }
 }
 
-- (void) dingDong
-{
-  [self.prowl sendMessage:@"DING DONG"];
-}
-
 - (void)dealloc {
-
-    [window release];
-    [super dealloc];
+  self.dingDongController = nil;
+  [window release];
+  [super dealloc];
 }
 
 @end
