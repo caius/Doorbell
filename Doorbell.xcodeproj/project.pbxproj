@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		092B70331285E13700C2566A /* HIDRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B70311285E13700C2566A /* HIDRemote.m */; };
 		092B70361285E1F200C2566A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092B70351285E1F200C2566A /* IOKit.framework */; };
+		092B70481285E89B00C2566A /* DingDongController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B70471285E89B00C2566A /* DingDongController.m */; };
+		092B705512865EBA00C2566A /* ASLMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B704E12865EBA00C2566A /* ASLMessage.m */; };
+		092B705612865EBA00C2566A /* ASLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B705012865EBA00C2566A /* ASLogger.m */; };
+		092B705712865EBA00C2566A /* ASLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B705212865EBA00C2566A /* ASLQuery.m */; };
+		092B705812865EBA00C2566A /* ASLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B705412865EBA00C2566A /* ASLResponse.m */; };
+		092B705D1286697C00C2566A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B705A1286697C00C2566A /* NSData+Base64.m */; };
+		092B705E1286697C00C2566A /* NSObject+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B705C1286697C00C2566A /* NSObject+Properties.m */; };
+		092B7061128669B300C2566A /* NSString+PropertyKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B7060128669B300C2566A /* NSString+PropertyKVC.m */; };
+		092B70651286733800C2566A /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092B70641286733800C2566A /* CoreAudio.framework */; };
+		092B7067128674AA00C2566A /* doorbell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 092B7066128674AA00C2566A /* doorbell.wav */; };
 		0977716A12858FDC008B3D1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0977716912858FDC008B3D1E /* Cocoa.framework */; };
 		0977716F12858FDC008B3D1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0977716D12858FDC008B3D1E /* InfoPlist.strings */; };
 		0977717112858FDC008B3D1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0977717012858FDC008B3D1E /* main.m */; };
@@ -23,7 +33,24 @@
 		092B70301285E13700C2566A /* HIDRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDRemote.h; sourceTree = "<group>"; };
 		092B70311285E13700C2566A /* HIDRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemote.m; sourceTree = "<group>"; };
 		092B70351285E1F200C2566A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Xcode4/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		092B70371285E26400C2566A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		092B70461285E89B00C2566A /* DingDongController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DingDongController.h; path = ../DingDongController.h; sourceTree = "<group>"; };
+		092B70471285E89B00C2566A /* DingDongController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DingDongController.m; path = ../DingDongController.m; sourceTree = "<group>"; };
+		092B704D12865EBA00C2566A /* ASLMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLMessage.h; sourceTree = "<group>"; };
+		092B704E12865EBA00C2566A /* ASLMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASLMessage.m; sourceTree = "<group>"; };
+		092B704F12865EBA00C2566A /* ASLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLogger.h; sourceTree = "<group>"; };
+		092B705012865EBA00C2566A /* ASLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASLogger.m; sourceTree = "<group>"; };
+		092B705112865EBA00C2566A /* ASLQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLQuery.h; sourceTree = "<group>"; };
+		092B705212865EBA00C2566A /* ASLQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASLQuery.m; sourceTree = "<group>"; };
+		092B705312865EBA00C2566A /* ASLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLResponse.h; sourceTree = "<group>"; };
+		092B705412865EBA00C2566A /* ASLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASLResponse.m; sourceTree = "<group>"; };
+		092B70591286697C00C2566A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		092B705A1286697C00C2566A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		092B705B1286697C00C2566A /* NSObject+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Properties.h"; sourceTree = "<group>"; };
+		092B705C1286697C00C2566A /* NSObject+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Properties.m"; sourceTree = "<group>"; };
+		092B705F128669B300C2566A /* NSString+PropertyKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PropertyKVC.h"; sourceTree = "<group>"; };
+		092B7060128669B300C2566A /* NSString+PropertyKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PropertyKVC.m"; sourceTree = "<group>"; };
+		092B70641286733800C2566A /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Xcode4/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		092B7066128674AA00C2566A /* doorbell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = doorbell.wav; sourceTree = "<group>"; };
 		0977716612858FDC008B3D1E /* Doorbell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doorbell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0977716912858FDC008B3D1E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0977716B12858FDC008B3D1E /* Doorbell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Doorbell-Info.plist"; sourceTree = "<group>"; };
@@ -44,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092B70651286733800C2566A /* CoreAudio.framework in Frameworks */,
 				092B70361285E1F200C2566A /* IOKit.framework in Frameworks */,
 				097965581285A7D30082DD1D /* LRResty.framework in Frameworks */,
 				0977716A12858FDC008B3D1E /* Cocoa.framework in Frameworks */,
@@ -63,10 +91,31 @@
 			path = Classes/HIDRemote;
 			sourceTree = "<group>";
 		};
+		092B704C12865EBA00C2566A /* ASLogger */ = {
+			isa = PBXGroup;
+			children = (
+				092B705F128669B300C2566A /* NSString+PropertyKVC.h */,
+				092B7060128669B300C2566A /* NSString+PropertyKVC.m */,
+				092B70591286697C00C2566A /* NSData+Base64.h */,
+				092B705A1286697C00C2566A /* NSData+Base64.m */,
+				092B705B1286697C00C2566A /* NSObject+Properties.h */,
+				092B705C1286697C00C2566A /* NSObject+Properties.m */,
+				092B704D12865EBA00C2566A /* ASLMessage.h */,
+				092B704E12865EBA00C2566A /* ASLMessage.m */,
+				092B704F12865EBA00C2566A /* ASLogger.h */,
+				092B705012865EBA00C2566A /* ASLogger.m */,
+				092B705112865EBA00C2566A /* ASLQuery.h */,
+				092B705212865EBA00C2566A /* ASLQuery.m */,
+				092B705312865EBA00C2566A /* ASLResponse.h */,
+				092B705412865EBA00C2566A /* ASLResponse.m */,
+			);
+			name = ASLogger;
+			path = Classes/ASLogger;
+			sourceTree = "<group>";
+		};
 		0977715712858FDB008B3D1E = {
 			isa = PBXGroup;
 			children = (
-				092B70371285E26400C2566A /* Carbon.framework */,
 				0977715E12858FDC008B3D1E /* Classes */,
 				0977715F12858FDC008B3D1E /* Other Sources */,
 				0977716012858FDC008B3D1E /* Resources */,
@@ -78,6 +127,8 @@
 		0977715E12858FDC008B3D1E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				092B70461285E89B00C2566A /* DingDongController.h */,
+				092B70471285E89B00C2566A /* DingDongController.m */,
 				097965591285A9840082DD1D /* Prowl.h */,
 				0979655A1285A9840082DD1D /* Prowl.m */,
 				0977717812858FDC008B3D1E /* DoorbellAppDelegate.h */,
@@ -89,6 +140,7 @@
 		0977715F12858FDC008B3D1E /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				092B704C12865EBA00C2566A /* ASLogger */,
 				092B702F1285E13700C2566A /* HIDRemote */,
 				0977716C12858FDC008B3D1E /* Doorbell_Prefix.pch */,
 				0977717012858FDC008B3D1E /* main.m */,
@@ -99,6 +151,7 @@
 		0977716012858FDC008B3D1E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				092B7066128674AA00C2566A /* doorbell.wav */,
 				0977716B12858FDC008B3D1E /* Doorbell-Info.plist */,
 				0977716D12858FDC008B3D1E /* InfoPlist.strings */,
 				0977717212858FDC008B3D1E /* MainMenu.xib */,
@@ -110,6 +163,7 @@
 		0977716112858FDC008B3D1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				092B70641286733800C2566A /* CoreAudio.framework */,
 				092B70351285E1F200C2566A /* IOKit.framework */,
 				097965571285A7D30082DD1D /* LRResty.framework */,
 				0977716912858FDC008B3D1E /* Cocoa.framework */,
@@ -178,6 +232,7 @@
 				0977716F12858FDC008B3D1E /* InfoPlist.strings in Resources */,
 				0977717412858FDC008B3D1E /* MainMenu.xib in Resources */,
 				0977717712858FDC008B3D1E /* Credits.rtf in Resources */,
+				092B7067128674AA00C2566A /* doorbell.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +247,14 @@
 				0977717A12858FDC008B3D1E /* DoorbellAppDelegate.m in Sources */,
 				0979655B1285A9840082DD1D /* Prowl.m in Sources */,
 				092B70331285E13700C2566A /* HIDRemote.m in Sources */,
+				092B70481285E89B00C2566A /* DingDongController.m in Sources */,
+				092B705512865EBA00C2566A /* ASLMessage.m in Sources */,
+				092B705612865EBA00C2566A /* ASLogger.m in Sources */,
+				092B705712865EBA00C2566A /* ASLQuery.m in Sources */,
+				092B705812865EBA00C2566A /* ASLResponse.m in Sources */,
+				092B705D1286697C00C2566A /* NSData+Base64.m in Sources */,
+				092B705E1286697C00C2566A /* NSObject+Properties.m in Sources */,
+				092B7061128669B300C2566A /* NSString+PropertyKVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +293,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -251,6 +315,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
